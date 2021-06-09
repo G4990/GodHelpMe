@@ -1,0 +1,27 @@
+{
+    "_": {
+        "editor": {
+            "view": {
+                "view-show-grid": true,
+                "view-snap-grid": true,
+                "view-grid-size": "20",
+                "view-node-status": true,
+                "view-node-show-label": true,
+                "view-show-tips": true
+            }
+        },
+        "git": {
+            "globalUser": {
+                "name": "Mathialagang",
+                "email": "65608091+Mathialagang@users.noreply.github.com"
+            },
+            "user": {
+                "name": "G4990",
+                "email": "geethu.dians@gmail.com"
+            },
+            "workflow": {
+                "mode": "manual"
+            }
+        }
+    }
+}
