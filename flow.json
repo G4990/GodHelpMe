@@ -1,22 +1,15 @@
 [
     {
-        "id": "6e784d4f.0185b4",
+        "id": "ef6f4be1.613678",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "3f8697.acb3296a",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": ""
-    },
-    {
-        "id": "fdc5fa82.6460a8",
+        "id": "3e6289b2.f29686",
         "type": "inject",
-        "z": "6e784d4f.0185b4",
+        "z": "ef6f4be1.613678",
         "name": "",
         "props": [
             {
@@ -35,17 +28,17 @@
         "payload": "",
         "payloadType": "date",
         "x": 130,
-        "y": 80,
+        "y": 100,
         "wires": [
             [
-                "69210e8d.67117"
+                "fd275396.a2f19"
             ]
         ]
     },
     {
-        "id": "69210e8d.67117",
+        "id": "fd275396.a2f19",
         "type": "debug",
-        "z": "6e784d4f.0185b4",
+        "z": "ef6f4be1.613678",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -55,53 +48,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 280,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "d897f60.69bd108",
-        "type": "inject",
-        "z": "3f8697.acb3296a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 110,
-        "y": 80,
-        "wires": [
-            [
-                "43648e9e.617e8"
-            ]
-        ]
-    },
-    {
-        "id": "43648e9e.617e8",
-        "type": "debug",
-        "z": "3f8697.acb3296a",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 320,
-        "y": 160,
+        "x": 360,
+        "y": 180,
         "wires": []
     }
 ]
